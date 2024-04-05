@@ -1,0 +1,95 @@
+.header {
+    text-align: left;
+    size: 50%;
+}
+.layout {
+    width: 800px;
+    text-align: center;
+    padding-left: 200px;
+}
+.containerHead {
+    background-color: rgb(77, 77, 84);
+    height: 70px;
+    display: flex;
+   
+}
+.containerHeadLeft{
+    flex: 0%;
+    text-align: left;
+    padding-left: 10%;
+}
+ .containerHeadLeft i{
+    font-size:48px
+ }
+
+.containerHeadRight{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    flex: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.containerMain{
+    background-color: rgb(157, 169, 157);
+    height: 450px;
+    display: flex;
+}
+
+.left{
+    flex: 0%;
+}
+
+.box {
+   margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 350px;
+    background-color: rgb(41, 32, 32);
+    border-radius: 25px;
+}
+
+.right {
+    flex: 25%;
+}
+
+.searchbox {
+    background-color: rgb(41, 32, 32);
+    color: grey;
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.main{
+    height: 150px;
+    display: flex;
+}
+
+.box1 {
+    padding: 5px;
+    background-color: rgb(41, 32, 32);
+    height: 100px;
+    width: 130px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
+
+.footer {
+    background-color: rgb(41, 32, 32);
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 110px;
+    border-radius: 10px;
+    display: flex;
+}
